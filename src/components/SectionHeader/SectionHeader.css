@@ -1,0 +1,5 @@
+.section-header h4{
+    margin-bottom: calc(var(--margin-primary) / 4);
+    font-weight: var(--font-whight-bold);
+    font-size: 36px;
+}

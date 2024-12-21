@@ -1,0 +1,85 @@
+.main-Hero {
+    background: url(../../assets/images/hero.jpeg) no-repeat top right / cover;
+    background-color: var(--color-dark );
+    color: var(--color-light);
+    padding: var(--padding-primary);
+    border-radius: var(--border-radius-primary);
+}
+
+.text-hero {
+    max-width: 500px;
+}
+
+.hero-subtitle {
+    font-size: 20px;
+    font-weight: var(--font-whight-normal);
+}
+
+.hero-title {
+    font-size: 60px;
+    text-transform: uppercase;
+    margin-bottom: calc((var(--margin-primary) / 2));;
+    margin-top: calc((var(--margin-primary) / 2));;
+    font-weight: var(--font-whight-bold);
+}
+
+.hero-title em {
+    font-style: normal;
+    color: var(--color-primary);
+}
+
+
+
+
+
+/* تصميمات خاصة بالموبايل */
+@media (max-width: 768px) {
+    .main-Hero {
+        padding: calc(var(--padding-primary) / 2);
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 40px;
+        margin-bottom: calc((var(--margin-primary) / 2));
+        margin-top: calc((var(--margin-primary) / 2));
+    }
+
+    .hero-subtitle {
+        font-size: 18px;
+    }
+
+    .text-hero {
+        max-width: 100%;
+    }
+
+    .main-button {
+        padding: 8px;
+    }
+}
+
+/* تصميمات خاصة بالآيباد */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .main-Hero {
+        padding: var(--padding-primary);
+        text-align: left;
+    }
+
+    .hero-title {
+        font-size: 50px;
+        margin-bottom: calc((var(--margin-primary) / 2));
+        margin-top: calc((var(--margin-primary) / 2));
+    }
+
+    .hero-subtitle {
+        font-size: 19px;
+    }
+
+    .text-hero {
+        max-width: 100%;
+    }
+
+    .main-button {
+        padding: 9px;
+    }
+}

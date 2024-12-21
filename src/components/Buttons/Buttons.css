@@ -1,0 +1,27 @@
+.primary-button  {
+    background-color: rgb(206, 9, 179);
+    transition: 0.2s;
+    border-radius: var(--border-radius-primary);
+    padding: 1%;
+    width: fit-content;
+    height:  fit-content;
+}
+.primary-button a {
+    text-decoration: none;
+    color: white;
+}
+
+
+.secondary-button  {
+    background-color:var(--color-darkest);
+    border: 1px solid var(--color-primary);
+    transition: 0.2s;
+    border-radius: var(--border-radius-primary);
+    padding: 1%;
+    width: fit-content;
+    height:  fit-content;
+}
+.secondary-button a {
+    text-decoration: none;
+    color: white;
+}
